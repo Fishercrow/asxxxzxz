@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substories</title>
+    <link rel="stylesheet" href="stylemee.css">
+</head>
+<!--   yoooo -->
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <div style="clear: both">
+                <h1 style="float: left">Substories</h1>
+                <h1 style="float: right">Completion 
+                    <div class="stat-container"> <!--
+                        <div class="details">
+                            <h3>Completion</h3>
+                            <div id="progressbar">
+                                    <div id="progress"></div>
+                            </div>
+                        </div> -->
+                        <div class="stats-number">
+                            <p id="numbers">0 / 0</p>
+                        </div>
+                    </div>
+                    </h1>
+            </div>
+            <form class="input-area">
+                <input type="text" id="task-input" placeholder="Add a new task..." />
+                <button id="add-task-btn" type="image"><img class="submit_button" src="./submit_button.jpg"></button>
+            </form>
+            <div class="todos-container">
+                <ul id="task-list"></ul>
+                <img class="empty-image" src="./hfb.jpg" alt="Empty" />
+            </div>
+        </div>
+    </div>
+    <script src="java.jsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+
+</html>
